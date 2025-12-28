@@ -20,7 +20,22 @@
         "height": 600
       },
       "resizable": true
-    }
+    },
+    "about": "Messaging app for text, voice, and video communication.",
+    "help": [
+      "Select chat to message",
+      "Click call buttons",
+      "Share media with +"
+    ],
+    "docs": "https://zos-apps.github.io/whatsapp",
+    "site": "https://github.com/zos-apps/whatsapp",
+    "features": [
+      "Text messaging",
+      "Voice calls",
+      "Video calls",
+      "Group chats",
+      "Media sharing"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "whatsapp",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
