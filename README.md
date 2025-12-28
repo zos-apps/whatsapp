@@ -1,50 +1,54 @@
 # 📱 WhatsApp
 
-Secure messaging and calls
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/whatsapp/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/whatsapp)
 
-## Category
-`social`
+> Secure messaging and calls
+
+**[Documentation](https://zos-apps.github.io/whatsapp)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/whatsapp
-# or
-pnpm add @anthropic/whatsapp
+npm install github:zos-apps/whatsapp
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/whatsapp';
+import WhatsApp from '@zos-apps/whatsapp';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <WhatsApp />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**Social**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `network`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/whatsapp)
+- [GitHub Repository](https://github.com/zos-apps/whatsapp)
+- [Report Issues](https://github.com/zos-apps/whatsapp/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)
