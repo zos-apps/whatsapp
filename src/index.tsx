@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface WhatsAppProps {
   onClose: () => void;
@@ -37,7 +37,7 @@ const mockMessages: Message[] = [
   { id: '5', text: 'That sounds great!', time: '9:45 AM', sent: false, read: true },
 ];
 
-const WhatsApp: React.FC<WhatsAppProps> = ({ onClose }) => {
+const WhatsApp: React.FC<WhatsAppProps> = ({ onClose: _onClose }) => {
   const [chats] = useState(mockChats);
   const [messages] = useState(mockMessages);
   const [selectedChat, setSelectedChat] = useState<string | null>('2');
